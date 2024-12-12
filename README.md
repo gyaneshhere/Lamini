@@ -133,5 +133,3 @@ Next
 Quick Start
 
 ](quick_start/)
-
-if(element.contentWindow.update\_top\_val){ element.contentWindow.update\_top\_val(half\_vh - diff) } } ticking = false; }); ticking = true; } }); const dark\_scheme\_name = "slate" window.scheme = document.body.getAttribute("data-md-color-scheme") const options = { attributeFilter: \['data-md-color-scheme'\], }; function color\_scheme\_callback(mutations) { for (let mutation of mutations) { if (mutation.attributeName === "data-md-color-scheme") { scheme = document.body.getAttribute("data-md-color-scheme") var iframe\_list = document.getElementsByClassName("swagger-ui-iframe") for(var i = 0; i < iframe\_list.length; i++) { var ele = iframe\_list.item(i); if (ele) { if (scheme === dark\_scheme\_name) { ele.contentWindow.enable\_dark\_mode(); } else { ele.contentWindow.disable\_dark\_mode(); } } } } } } observer = new MutationObserver(color\_scheme\_callback); observer.observe(document.body, options); })
